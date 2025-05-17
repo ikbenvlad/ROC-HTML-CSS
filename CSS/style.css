@@ -76,12 +76,18 @@ header, footer {
   gap: 20px;
   padding: 20px;
 }
-.fotogallery {
+.gallerij1 {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  gap: 10px;
+  grid-template-columns: repeat(auto-fit, 30%);
+  gap: 20px;
 }
-.fotogallerij img {
-  width: 100%;
-  height: auto;
+.gallerij1 img {
+  width: 5%;
+  height: 5%;
+  padding: 10px;
+}
+
+#gallerij {
+  border-radius: 10px;
+  background: rgba(255,255,255,0.2);
 }
